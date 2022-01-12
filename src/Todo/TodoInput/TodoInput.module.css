@@ -1,0 +1,26 @@
+.todo-input-group {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 3fr 1fr;
+}
+
+.todo-input-group > button,
+.todo-input-group > input {
+  padding: 0.5rem 1rem;
+}
+
+.todo-input-group > input {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.todo-input-group > input:focus {
+  outline-color: #1ea2fa3d;
+}
+
+.todo-input-group > button {
+  background-color: #1ea2fa;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
